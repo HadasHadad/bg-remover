@@ -10,7 +10,7 @@
 }
 
 .header{
-
+    position: relative;
 }
 
 .header-title{
@@ -27,10 +27,12 @@
     border: 0;
     color: white;
     width: 100px;
-    height: 25px;
+    height: 37px;
     border-radius: 25px;
     float: left;
     margin-left: 20px;
+    display: flex;
+    flex-direction: row-reverse;
 }
 
 .header-subtext{
@@ -39,4 +41,17 @@
     padding-left: 133px;
     font-size: 13px;
     padding-top: 3px;
+}
+.btn-text{
+    padding-left: 0.4px;
+    padding-top: 1.5px;
+}
+.btn-icon{
+    padding-top: 10px;
+    padding-left: 8px;
+}
+.close-icon{
+    position: absolute;
+    left: 16px;
+    top: 16px;
 }
