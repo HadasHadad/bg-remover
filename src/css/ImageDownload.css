@@ -1,0 +1,30 @@
+.img-download-container{
+    background-color: #161B21;
+    color: white;
+    text-align: right;
+    height: 39.5%;
+    width: 91%;
+    padding: 10px;
+}
+.download-title{
+
+}
+
+.download-subtext{
+
+}
+
+.download-btn{
+    width: 100%;
+    background-color: inherit;
+    border: 1px solid #00bcd491;
+    color: #00bcd491;
+    border-radius: 15px;
+}
+
+.download-info{
+
+}
+.new-img{
+    float: right;
+}
