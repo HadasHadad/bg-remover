@@ -1,0 +1,49 @@
+.image-edit{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+.download-reminder{
+    color: white;
+    text-align: right;
+    padding-right: 15px;
+    padding-top: 10px;
+}
+
+.change-bg-btn{
+    border-radius: 15px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    margin-left: 15px;
+    margin-top: 10px;
+    
+}
+
+.current-img{
+    
+    border: 1px solid white;
+    width:98%;
+    height: 300px;
+    margin-top: 10px;
+    margin-left: 4px;
+    
+   
+
+    
+
+}
+
+.input-color{
+    float: left;
+    border: none;
+    border-radius: 5px;
+    padding-right: 5px;
+    background-color: transparent; 
+    height: 20px;
+    width: 20px;
+}
+.margin-imgOg{
+    height: 15px;
+}
