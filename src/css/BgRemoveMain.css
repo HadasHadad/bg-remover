@@ -12,7 +12,7 @@ body{
     width: 800px;
     height: 600px;
     margin: 0 auto;
-    margin-top: 100px;
+    margin-top: 50px;
     border-radius: 25px;
     box-shadow: 1px 1px 10px black;
     background-color: #222a34;
@@ -43,6 +43,7 @@ body{
     display: flex;
     flex-direction: row-reverse;
     margin-right: 10px;
+    cursor: pointer;
 }
 
 .header-subtext{
@@ -82,7 +83,7 @@ body{
     background-color: #2F3A4B;
 }
 
-.main-control{
+.main-download{
  
     height: 390px;
     flex-basis: 28%;
@@ -175,4 +176,102 @@ body{
     padding-left: 19px;
     background-position: 8px 2px;
     font-size: 10px;
+}
+.img-upload{
+    display: none;
+}
+.takanon-popup{
+    width: 600px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 25px;
+    padding: 35px;
+    position: relative;
+    margin: 0 auto;
+    top:-483px
+}
+.takanon-overlay{
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: black;
+    opacity: 50%;
+}
+.takanon-close-icon{
+    position: absolute;
+    top: 4px;
+    left: 5px;
+    padding: 10px;
+}
+.download-popup{
+    border: 1px solid black;
+    background: white;
+    width: 319px;
+    position: relative;
+    bottom: 400px;
+    left: 210px;
+    padding: 18px;
+}
+.download-folder-img{
+    width: 45px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px #9c27b080;
+    position: absolute;
+    top: -15px;
+    background-color: white;
+    left: 156px;
+}
+.close-download-btn{
+    position: absolute;
+    left: 5px;
+    top: 5px;
+}
+.download-popup-title{
+    font-size: 28px;
+    padding: 10px;
+    color: rgb(4, 4, 101);
+    margin-top: 5px;
+}
+.download-popup-subtitle{
+    font-size: 19px;
+    padding: 10px;
+    color: rgb(4, 4, 101);
+}
+.download-confirm{
+    background-color: white;
+    border-radius: 14px;
+    border: 1px solid black;
+    width: 90px;
+    margin: 5px;
+    height: 26px;
+    
+}
+.download-cancel{
+    background-color: white;
+    border-radius: 14px;
+    border: 1px solid black;
+    width: 90px;
+    margin: 5px;
+    height: 26px;
+}
+.not-robot{
+    text-align: right;
+    margin-bottom: 8px;
+    
+}
+.download-popup button:hover{
+    background-image: linear-gradient(to right, rgb(219, 70, 233), rgb(107, 182, 236));
+    color: white;
+}
+.download-popup-overlay{
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: black;
+    opacity: 50%;
+}
+.not-robot-icon{
+    margin-right: 8px;
 }
